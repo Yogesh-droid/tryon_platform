@@ -1,0 +1,6 @@
+2026/08/15-21:36:35.845 1a8a Creating DB /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_apple.stackexchange.com_0.indexeddb.leveldb since it was missing.
+2026/08/15-21:36:35.932 1a8a Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_apple.stackexchange.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/15-21:36:43.836 1a8a Level-0 table #5: started
+2026/08/15-21:36:43.839 1a8a Level-0 table #5: 397 bytes OK
+2026/08/15-21:36:43.851 1a8a Delete type=0 #3
+2026/08/15-21:36:43.852 1a8a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

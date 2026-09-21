@@ -1,0 +1,6 @@
+2026/09/17-22:18:35.880 1bd0 Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/17-22:18:35.880 1bd0 Recovering log #95
+2026/09/17-22:18:35.885 1bd0 Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000095.log 
+2026/09/17-22:18:41.451 1bd0 Level-0 table #100: started
+2026/09/17-22:18:41.456 1bd0 Level-0 table #100: 3949045 bytes OK
+2026/09/17-22:18:41.457 1bd0 Delete type=0 #95

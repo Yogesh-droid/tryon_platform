@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --ink: #3B1F2B;
+  --ink-soft: #6B5A5F;
+  --paper: #FAF6F1;
+  --gold: #B8863F;
+  --rose: #C97B84;
+  --line: #E8DED4;
+  --surface: #FFFFFF;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Login ---------- */
+.login-page {
+  max-width: 320px;
+  margin: 120px auto;
+  text-align: center;
+}
+
+.brand {
+  font-family: 'Fraunces', serif;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.login-form input {
+  padding: 11px 12px;
+  font-size: 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  font-family: 'Inter', sans-serif;
+}
+
+.login-form button {
+  padding: 11px;
+  font-size: 14px;
+  font-weight: 500;
+  background: var(--ink);
+  color: var(--paper);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.error { color: var(--rose); font-size: 13px; margin: 0; }
+
+/* ---------- Dashboard shell ---------- */
+.dashboard {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+}
+
+.dash-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 24px;
+}
+
+.logout {
+  background: none;
+  border: none;
+  color: var(--ink-soft);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* ---------- Stat tiles ---------- */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.stat {
+  background: var(--surface);
+  padding: 14px 16px;
+  border-bottom: 2px solid var(--gold);
+  border-radius: 6px 6px 0 0;
+}
+
+.stat-label {
+  display: block;
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* ---------- Catalog section ---------- */
+.catalog-section h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-bottom: 12px;
+}
+
+.garment-list {
+  border-top: 1px solid var(--line);
+}
+
+.garment-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.garment-row img {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.garment-name-input {
+  flex: 1;
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  color: var(--ink);
+  padding: 4px 0;
+  border-bottom: 1px solid transparent;
+}
+
+.garment-name-input:focus {
+  outline: none;
+  border-bottom: 1px solid var(--gold);
+}
+
+.garment-row.inactive img { opacity: 0.4; }
+.garment-row.inactive .garment-name-input { color: var(--ink-soft); }
+
+.row-actions {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.row-actions button {
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-size: 12px;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.row-actions button.delete:hover {
+  border-color: var(--rose);
+  color: var(--rose);
+}
+
+.empty-state {
+  padding: 32px 0;
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+/* ---------- Add item ---------- */
+.add-item-toggle {
+  width: 100%;
+  text-align: left;
+  padding: 12px 0;
+  background: none;
+  border: none;
+  color: var(--gold);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.add-garment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: var(--surface);
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.add-garment-form input[type="text"] {
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+}
+
+.add-garment-form .form-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.add-garment-form button[type="submit"] {
+  flex: 1;
+  padding: 10px;
+  background: var(--ink);
+  color: var(--paper);
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-garment-form button[type="button"] {
+  padding: 10px 14px;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  font-size: 14px;
+  color: var(--ink-soft);
+  cursor: pointer;
+}

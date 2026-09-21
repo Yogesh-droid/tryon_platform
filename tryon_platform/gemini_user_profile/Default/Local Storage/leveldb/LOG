@@ -1,0 +1,40 @@
+2026/09/18-08:21:12.582 1d72 Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/18-08:21:12.584 1d72 Recovering log #3105
+2026/09/18-08:21:12.585 1d72 Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/Local Storage/leveldb/003105.log 
+2026/09/18-08:21:58.717 1d77 Level-0 table #3109: started
+2026/09/18-08:21:58.729 1d77 Level-0 table #3109: 53560 bytes OK
+2026/09/18-08:21:58.747 1d77 Delete type=0 #3105
+2026/09/18-09:59:43.268 1d77 Level-0 table #3111: started
+2026/09/18-09:59:43.274 1d77 Level-0 table #3111: 15675 bytes OK
+2026/09/18-09:59:43.278 1d77 Delete type=0 #3108
+2026/09/18-09:59:43.281 1d77 Compacting 4@0 + 1@1 files
+2026/09/18-09:59:43.301 1d77 Generated table #3112@0: 7116 keys, 2094676 bytes
+2026/09/18-09:59:43.301 1d77 Compacted 4@0 + 1@1 files => 2094676 bytes
+2026/09/18-09:59:43.303 1d77 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/18-09:59:43.303 1d77 Delete type=2 #3109
+2026/09/18-09:59:43.303 1d77 Delete type=2 #3111
+2026/09/18-09:59:43.303 1d77 Delete type=2 #3104
+2026/09/18-09:59:43.303 1d77 Delete type=2 #3106
+2026/09/18-09:59:43.303 1d77 Delete type=2 #3102
+2026/09/18-17:16:35.495 1d77 Level-0 table #3114: started
+2026/09/18-17:16:35.502 1d77 Level-0 table #3114: 80089 bytes OK
+2026/09/18-17:16:35.508 1d77 Delete type=0 #3110
+2026/09/19-07:40:55.395 1d77 Level-0 table #3116: started
+2026/09/19-07:40:55.399 1d77 Level-0 table #3116: 30036 bytes OK
+2026/09/19-07:40:55.409 1d77 Delete type=0 #3113
+2026/09/19-07:42:47.818 1d77 Level-0 table #3118: started
+2026/09/19-07:42:47.823 1d77 Level-0 table #3118: 48717 bytes OK
+2026/09/19-07:42:47.825 1d77 Delete type=0 #3115
+2026/09/19-07:43:12.585 1d77 Level-0 table #3120: started
+2026/09/19-07:43:12.589 1d77 Level-0 table #3120: 33856 bytes OK
+2026/09/19-07:43:12.600 1d77 Delete type=0 #3117
+2026/09/19-07:43:12.602 1d77 Compacting 4@0 + 1@1 files
+2026/09/19-07:43:12.622 1d77 Generated table #3121@0: 7058 keys, 2110819 bytes
+2026/09/19-07:43:12.623 1d77 Generated table #3122@0: 71 keys, 7305 bytes
+2026/09/19-07:43:12.623 1d77 Compacted 4@0 + 1@1 files => 2118124 bytes
+2026/09/19-07:43:12.624 1d77 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/09/19-07:43:12.624 1d77 Delete type=2 #3118
+2026/09/19-07:43:12.624 1d77 Delete type=2 #3120
+2026/09/19-07:43:12.624 1d77 Delete type=2 #3112
+2026/09/19-07:43:12.624 1d77 Delete type=2 #3116
+2026/09/19-07:43:12.624 1d77 Delete type=2 #3114

@@ -1,0 +1,257 @@
+{
+   "screenshot_app_about": {
+      "message": "متعلق"
+   },
+   "screenshot_app_copyright": {
+      "message": "تمام جملہ حق محفوظ ہیں %company%"
+   },
+   "screenshot_app_exit": {
+      "message": "باہر نکلیں"
+   },
+   "screenshot_app_help": {
+      "message": "مدد"
+   },
+   "screenshot_app_hotkey_failtoregister1": {
+      "message": "ہاٹ کی کو داخل از دفتر کرنے میں ناکامی کا سامنا:"
+   },
+   "screenshot_app_hotkey_failtoregister2": {
+      "message": "لگتا ہے کے کوئی اپلیکیشن پہلے سے ہی اسکو استعمال کر رہی ہے۔ آپشن پینل کو کھولنے کے لئے اس پیغام پر کلک کریں۔"
+   },
+   "screenshot_app_language_code": {
+      "message": "UR"
+   },
+   "screenshot_app_language_name": {
+      "message": "اردو"
+   },
+   "screenshot_app_language_name_eng": {
+      "message": "Urdu"
+   },
+   "screenshot_app_menu_gallery": {
+      "message": "میری گیلری (%username%)"
+   },
+   "screenshot_app_menu_sign_in": {
+      "message": "داخل ہوں..."
+   },
+   "screenshot_app_menu_sign_out": {
+      "message": "باہر نکلیں"
+   },
+   "screenshot_app_options": {
+      "message": "آپشنز"
+   },
+   "screenshot_app_options_autoclose": {
+      "message": "اپلوڈ کرنے والی ونڈو کو خودبخود بند کریں"
+   },
+   "screenshot_app_options_autocopy": {
+      "message": "فائل اپلوڈ کرنے کے بعد خودبخود لنک کاپی کریں"
+   },
+   "screenshot_app_options_capturecursor": {
+      "message": "کرسر کا پیچھا کریں"
+   },
+   "screenshot_app_options_error_hotkeyequal": {
+      "message": "آپ ایک جیسی ہاٹ کیز کو مختلف عوامل کیلئے مربوط نہیں کر سکتے"
+   },
+   "screenshot_app_options_error_hotkeyinvalid": {
+      "message": "آپکی کوئی ایک ہاٹ کی ڈس ایبل ، براہ مہربانی متعلقہ ہاٹ کی چیک باکس کو ان چیک کریں"
+   },
+   "screenshot_app_options_formats": {
+      "message": "طریقہ عمل"
+   },
+   "screenshot_app_options_general": {
+      "message": "جنرل"
+   },
+   "screenshot_app_options_hotkeygeneral": {
+      "message": "جنرل ہاٹ کی"
+   },
+   "screenshot_app_options_hotkeys": {
+      "message": "ہاٹ کیز"
+   },
+   "screenshot_app_options_hotkeysavefullscreen": {
+      "message": "پوری سکرین کو فوری محفوظ کریں"
+   },
+   "screenshot_app_options_hotkeyuploadfullscreen": {
+      "message": "پوری سکرین کو فوری طور پر اپلوڈ کریں"
+   },
+   "screenshot_app_options_httpsproxy": {
+      "message": "HTTPS پراکسی"
+   },
+   "screenshot_app_options_jpegquality": {
+      "message": "JPEG کی کوالٹی"
+   },
+   "screenshot_app_options_keepselection": {
+      "message": "منتخب ایریا کی پوزیشن کو برقرار رکھیں"
+   },
+   "screenshot_app_options_language": {
+      "message": "زبان"
+   },
+   "screenshot_app_options_manualproxy": {
+      "message": "پراکسی کی دستورالعمل نتصیبات"
+   },
+   "screenshot_app_options_noproxy": {
+      "message": "بلا پراکسی"
+   },
+   "screenshot_app_options_proxy": {
+      "message": "پراکسی"
+   },
+   "screenshot_app_options_proxyport": {
+      "message": "پورٹ"
+   },
+   "screenshot_app_options_showbubbles": {
+      "message": "نقل اور محفوظ کرتے وقت معلوماتی غبارے دیکھیں"
+   },
+   "screenshot_app_options_systemproxy": {
+      "message": "سسٹم کی پرکسی سیٹنگز کو استعمال کریں"
+   },
+   "screenshot_app_options_uploadformat": {
+      "message": "تصاویر کو اپلوڈ کرنے کا طریقہ عمل"
+   },
+   "screenshot_app_signed_in_as": {
+      "message": "داخل ہوں بطور:"
+   },
+   "screenshot_app_signin_dialog_caption": {
+      "message": "داخل ہوں"
+   },
+   "screenshot_app_signin_error_caption": {
+      "message": "اندر داخل ہونے میں دشواری Lightshot"
+   },
+   "screenshot_app_signin_error_text": {
+      "message": "اندر داخل ہونے میں دشواری برائے مہربانی دوبارہ کوشش کریں :Lightshot"
+   },
+   "screenshot_app_take_screenshot": {
+      "message": "تصویر لیں"
+   },
+   "screenshot_app_terms": {
+      "message": "کے استعمال کے نقاط Lightshot"
+   },
+   "screenshot_app_tray_tooltip": {
+      "message": "کا بٹن دبائیں PrtScr تصویر لینے کے لئے "
+   },
+   "screenshot_plugin_cancel": {
+      "message": "نتسیخ کریں"
+   },
+   "screenshot_plugin_clear": {
+      "message": "انتخاب منسوخ کریں"
+   },
+   "screenshot_plugin_close": {
+      "message": "ختم کریں"
+   },
+   "screenshot_plugin_copy": {
+      "message": "نقل کریں"
+   },
+   "screenshot_plugin_ctypes_error": {
+      "message": "انتباہ : فائر فاکس C ٹائپ Lightshot کو کھولنے میں ناکامی کا سامنا ہے۔ برائوزر کو دوبارہ ریلوڈ کرنے کی کوشش کریں۔ اگر آپ مسلسل یہی مسلئہ دیکھیں تو براہ مہربانی رابطہ کریں  support@skillbrains.com.\\n\\nExtended error info"
+   },
+   "screenshot_plugin_edit_arrow": {
+      "message": "ایرو"
+   },
+   "screenshot_plugin_edit_blur": {
+      "message": "دھندلا"
+   },
+   "screenshot_plugin_edit_circle": {
+      "message": "دائرہ"
+   },
+   "screenshot_plugin_edit_color": {
+      "message": "رنگ"
+   },
+   "screenshot_plugin_edit_line": {
+      "message": "لکیر"
+   },
+   "screenshot_plugin_edit_marker": {
+      "message": "نشان"
+   },
+   "screenshot_plugin_edit_pencil": {
+      "message": "قلم"
+   },
+   "screenshot_plugin_edit_rect": {
+      "message": "مستطیل"
+   },
+   "screenshot_plugin_edit_text": {
+      "message": "عبارت"
+   },
+   "screenshot_plugin_edit_undo": {
+      "message": "ان ڈو"
+   },
+   "screenshot_plugin_editonline": {
+      "message": "براہ راست عکس میں ترمیم کریں"
+   },
+   "screenshot_plugin_error_capt": {
+      "message": "غلطی"
+   },
+   "screenshot_plugin_fullscreen": {
+      "message": "پورے بصری پردہ کا انتخاب کریں"
+   },
+   "screenshot_plugin_go_to_mac_store": {
+      "message": "ہم تکلیف کیلیے معذرت خواہ ہیں لیکن Lightshot ایکسٹنشن سرف ونڈو بیس کمپیوٹر پر ہی چلتی ہے۔ اگر آپ Mac کیلئے Lightshot ڈائون لوڈ کرنا چاہتے ہیں تو  ابھی App Store پر جائیں- "
+   },
+   "screenshot_plugin_incorrect_size": {
+      "message": "غلط ناپ"
+   },
+   "screenshot_plugin_npapi_not_found": {
+      "message": "انتباہ : Lightshot NPAPI پلگ ان نہیں ملا۔  برائوزر کو دوبارہ ریلوڈ کریں -  اگر آپ کو ریلوڈ کرنے کے باوجود یہی مسلئہ درپیش ہو تو برائے مہربانی اس ای میل پر رابطہ کریں support@skillbrains.com"
+   },
+   "screenshot_plugin_open": {
+      "message": "کھولیں"
+   },
+   "screenshot_plugin_other_os": {
+      "message": "ہم تکلیف کیلئے معذرت خواہ ہیں لیکن Lightshot  صرف Windows اور Mac کمپوٹرز پر ہی کام کرتا ہے۔ اگر آپ اپنے آپریٹنگ سسٹم کیلئے Lightshot  حاصل کرنا چاہتے ہیں تہ براہ مہربانی رابطہ کریں support@skillbrains.com"
+   },
+   "screenshot_plugin_print": {
+      "message": "چھاپ لگائیں"
+   },
+   "screenshot_plugin_save": {
+      "message": "محفوظ کریں"
+   },
+   "screenshot_plugin_screenshot_copied_to_clipboard": {
+      "message": "سکرین شاٹ کلپ بورڈ پر کاپی ہو گیا"
+   },
+   "screenshot_plugin_screenshot_saved": {
+      "message": "سکرین شاٹ %filename% محفوظ ہوگیا- فولڈر میں کھولیں"
+   },
+   "screenshot_plugin_screenshot_uploaded_link_copied": {
+      "message": "سکرین شاٹ اپلوڈ ہوگیا- لنک کلپ بورڈ پر کاپی ہو گیا"
+   },
+   "screenshot_plugin_share": {
+      "message": "سماجی رابطوں کی ویب سائیٹس پر تشھیر کریں"
+   },
+   "screenshot_plugin_share_facebook": {
+      "message": "پر تشھیر کریں Facebook"
+   },
+   "screenshot_plugin_share_googlesearch": {
+      "message": "پر ملتی جلتی تصاویر کی تلاش کریں Google"
+   },
+   "screenshot_plugin_share_pinterest": {
+      "message": "پر تشھیر کریں Pinterest"
+   },
+   "screenshot_plugin_share_sendmail": {
+      "message": "بذریعہ برقی خط ارسال کریں"
+   },
+   "screenshot_plugin_share_tineyesearch": {
+      "message": "پر ملتی جلتی تصاویر کی تلاش کریں Tineye"
+   },
+   "screenshot_plugin_share_twitter": {
+      "message": "پر تشھیر کریں Twitter"
+   },
+   "screenshot_plugin_share_vk": {
+      "message": "پر تشھیر کریں VK"
+   },
+   "screenshot_plugin_tooltip": {
+      "message": "ایریا کا انتخاب"
+   },
+   "screenshot_plugin_upload": {
+      "message": "پر منتقل کریں prntscr.com"
+   },
+   "screenshot_plugin_upload_failed_retry": {
+      "message": "دوبارہ کوشش کریں . اپلوڈ فیل ہوگیا"
+   },
+   "screenshot_plugin_uploading_window_capt": {
+      "message": "تصویر اپلوڈ کریں"
+   },
+   "screenshotplugin_default_title": {
+      "message": "تصویر لیں"
+   },
+   "screenshotplugin_name": {
+      "message": "Lightshot ( تصویر لینے کا مددگار )"
+   },
+   "screenshotplugin_short_description": {
+      "message": "آپ کو منتخب شدہ ایریا کی تصویر لینے اور سرور پر اپلوڈ کرنے کی سہولت فراہم کرتا ہے . آسان اور با سہولت تصویر لینے کا مدد گار"
+   }
+}

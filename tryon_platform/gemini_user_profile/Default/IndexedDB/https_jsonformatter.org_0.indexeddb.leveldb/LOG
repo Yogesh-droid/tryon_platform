@@ -1,0 +1,15 @@
+2026/09/08-11:30:59.126 3dabd9 Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_jsonformatter.org_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/08-11:30:59.127 3dabd9 Recovering log #7
+2026/09/08-11:30:59.127 3dabd9 Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_jsonformatter.org_0.indexeddb.leveldb/000007.log 
+2026/09/08-11:31:09.087 3dabd9 Level-0 table #12: started
+2026/09/08-11:31:09.089 3dabd9 Level-0 table #12: 226 bytes OK
+2026/09/08-11:31:09.090 3dabd9 Delete type=0 #7
+2026/09/08-11:31:09.091 3dabd9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/09/08-11:31:09.091 3dabd9 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 16 : 1
+2026/09/08-11:31:09.091 3dabd9 Compacting 1@1 + 1@2 files
+2026/09/08-11:31:09.092 3dabd9 Generated table #13@1: 9 keys, 373 bytes
+2026/09/08-11:31:09.092 3dabd9 Compacted 1@1 + 1@2 files => 373 bytes
+2026/09/08-11:31:09.092 3dabd9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/08-11:31:09.093 3dabd9 Delete type=2 #12
+2026/09/08-11:31:09.093 3dabd9 Delete type=2 #9
+2026/09/08-11:31:09.094 3dabd9 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 16 : 1 .. (end); will stop at (end)

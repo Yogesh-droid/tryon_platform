@@ -1,0 +1,38 @@
+2026/07/31-10:30:11.314 1cf8 Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_app.apidog.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/31-10:30:11.314 1cf8 Recovering log #31
+2026/07/31-10:30:11.323 1cf8 Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_app.apidog.com_0.indexeddb.leveldb/000031.log 
+2026/07/31-10:30:13.744 1cfa Level-0 table #37: started
+2026/07/31-10:30:13.758 1cfa Level-0 table #37: 1236850 bytes OK
+2026/07/31-10:30:13.770 1cfa Delete type=0 #31
+2026/07/31-10:30:13.776 1cfa Compacting 1@1 + 1@2 files
+2026/07/31-10:30:13.784 1cfa Generated table #38@1: 2845 keys, 449453 bytes
+2026/07/31-10:30:13.784 1cfa Compacted 1@1 + 1@2 files => 449453 bytes
+2026/07/31-10:30:13.785 1cfa compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/31-10:30:13.785 1cfa Delete type=2 #34
+2026/07/31-10:30:13.785 1cfa Delete type=2 #37
+2026/07/31-11:21:19.887 1cfa Level-0 table #40: started
+2026/07/31-11:21:19.901 1cfa Level-0 table #40: 1390151 bytes OK
+2026/07/31-11:21:19.903 1cfa Delete type=0 #36
+2026/07/31-12:30:03.189 1cfa Compacting 1@1 + 1@2 files
+2026/07/31-12:30:03.198 1cfa Generated table #41@1: 3338 keys, 523756 bytes
+2026/07/31-12:30:03.198 1cfa Compacted 1@1 + 1@2 files => 523756 bytes
+2026/07/31-12:30:03.204 1cfa compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/31-12:30:03.204 1cfa Delete type=2 #38
+2026/07/31-12:30:03.204 1cfa Delete type=2 #40
+2026/07/31-16:35:24.998 1cfa Level-0 table #43: started
+2026/07/31-16:35:25.009 1cf8 Current memtable full; waiting...
+2026/07/31-16:35:25.019 1cfa Level-0 table #43: 1304235 bytes OK
+2026/07/31-16:35:25.024 1cfa Delete type=0 #39
+2026/07/31-16:35:25.026 1cfa Level-0 table #45: started
+2026/07/31-16:35:25.027 1cfa Level-0 table #45: 209 bytes OK
+2026/07/31-16:35:25.028 1cfa Delete type=0 #42
+2026/07/31-16:35:25.029 1cfa Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/07/31-16:35:25.029 1cfa Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x17\x1f\x03\x00\x00\x00\x00\xf9\xc73A\x00\x03\x00\x00\x00\xc0\xe9\xb9WA' @ 171511 : 1
+2026/07/31-16:35:25.029 1cfa Compacting 2@1 + 1@2 files
+2026/07/31-16:35:25.039 1cfa Generated table #46@1: 2844 keys, 449658 bytes
+2026/07/31-16:35:25.039 1cfa Compacted 2@1 + 1@2 files => 449658 bytes
+2026/07/31-16:35:25.041 1cfa compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/31-16:35:25.041 1cfa Delete type=2 #43
+2026/07/31-16:35:25.041 1cfa Delete type=2 #41
+2026/07/31-16:35:25.041 1cfa Delete type=2 #45
+2026/07/31-16:35:25.042 1cfa Manual compaction at level-1 from '\x00\x01\x17\x1f\x03\x00\x00\x00\x00\xf9\xc73A\x00\x03\x00\x00\x00\xc0\xe9\xb9WA' @ 171511 : 1 .. (end); will stop at (end)

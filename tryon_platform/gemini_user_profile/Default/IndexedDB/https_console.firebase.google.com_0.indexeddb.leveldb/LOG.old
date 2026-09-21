@@ -1,0 +1,33 @@
+2026/09/16-09:18:36.982 6b06de Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_console.firebase.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/16-09:18:36.982 6b06de Recovering log #116
+2026/09/16-09:18:36.983 6b06de Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_console.firebase.google.com_0.indexeddb.leveldb/000116.log 
+2026/09/16-09:18:37.030 6b06e4 Level-0 table #121: started
+2026/09/16-09:18:37.031 6b06e4 Level-0 table #121: 15605 bytes OK
+2026/09/16-09:18:37.032 6b06e4 Delete type=0 #116
+2026/09/16-09:18:37.033 6b06de Manual compaction at level-0 from '\x00%\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00&\x00\x00\x00' @ 0 : 0; will stop at '\x00%\x00\x00\x05' @ 3252 : 1
+2026/09/16-09:18:37.033 6b06de Compacting 1@0 + 1@1 files
+2026/09/16-09:18:37.033 6b06de Generated table #122@0: 132 keys, 2477 bytes
+2026/09/16-09:18:37.033 6b06de Compacted 1@0 + 1@1 files => 2477 bytes
+2026/09/16-09:18:37.034 6b06de compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/16-09:18:37.034 6b06de Delete type=2 #121
+2026/09/16-09:18:37.035 6b06de Manual compaction at level-0 from '\x00%\x00\x00\x05' @ 3252 : 1 .. '\x00&\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/09/16-09:46:12.224 6b06df Level-0 table #124: started
+2026/09/16-09:46:12.225 6b06df Level-0 table #124: 1487 bytes OK
+2026/09/16-09:46:12.234 6b06df Delete type=0 #120
+2026/09/16-09:46:12.234 6b06df Delete type=2 #118
+2026/09/16-09:46:12.236 6b06df Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x000\x003\x005\x000\x006\x006\x001\x008\x007\x009\x009\x00:\x00w\x00e\x00b\x00:\x00b\x007\x008\x00d\x003\x001\x00c\x001\x00a\x00e\x005\x007\x000\x00d\x003\x00b\x005\x00c\x003\x007\x005\x00a' @ 3273 : 1
+2026/09/16-09:46:12.236 6b06df Compacting 1@0 + 1@1 files
+2026/09/16-09:46:12.237 6b06df Generated table #125@0: 137 keys, 2503 bytes
+2026/09/16-09:46:12.237 6b06df Compacted 1@0 + 1@1 files => 2503 bytes
+2026/09/16-09:46:12.238 6b06df compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/16-09:46:12.238 6b06df Delete type=2 #122
+2026/09/16-09:46:12.238 6b06df Delete type=2 #124
+2026/09/16-09:46:12.239 6b06df Manual compaction at level-0 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x000\x003\x005\x000\x006\x006\x001\x008\x007\x009\x009\x00:\x00w\x00e\x00b\x00:\x00b\x007\x008\x00d\x003\x001\x00c\x001\x00a\x00e\x005\x007\x000\x00d\x003\x00b\x005\x00c\x003\x007\x005\x00a' @ 3273 : 1 .. (end); will stop at (end)
+2026/09/16-09:46:12.239 6b06df Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x000\x003\x005\x000\x006\x006\x001\x008\x007\x009\x009\x00:\x00w\x00e\x00b\x00:\x00b\x007\x008\x00d\x003\x001\x00c\x001\x00a\x00e\x005\x007\x000\x00d\x003\x00b\x005\x00c\x003\x007\x005\x00a' @ 3285 : 1
+2026/09/16-09:46:12.239 6b06df Compacting 1@1 + 1@2 files
+2026/09/16-09:46:12.240 6b06df Generated table #126@1: 36 keys, 1585 bytes
+2026/09/16-09:46:12.240 6b06df Compacted 1@1 + 1@2 files => 1585 bytes
+2026/09/16-09:46:12.240 6b06df compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/16-09:46:12.241 6b06df Delete type=2 #111
+2026/09/16-09:46:12.241 6b06df Delete type=2 #125
+2026/09/16-09:46:12.242 6b06df Manual compaction at level-1 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x000\x003\x005\x000\x006\x006\x001\x008\x007\x009\x009\x00:\x00w\x00e\x00b\x00:\x00b\x007\x008\x00d\x003\x001\x00c\x001\x00a\x00e\x005\x007\x000\x00d\x003\x00b\x005\x00c\x003\x007\x005\x00a' @ 3285 : 1 .. (end); will stop at (end)

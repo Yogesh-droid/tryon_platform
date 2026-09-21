@@ -1,0 +1,15 @@
+2026/06/30-17:50:29.278 1c50 Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/30-17:50:29.278 1c50 Recovering log #7
+2026/06/30-17:50:29.278 1c50 Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000007.log 
+2026/06/30-17:50:43.206 1c54 Level-0 table #12: started
+2026/06/30-17:50:43.207 1c54 Level-0 table #12: 37848 bytes OK
+2026/06/30-17:50:43.214 1c54 Delete type=0 #7
+2026/06/30-17:50:43.215 1c54 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/06/30-17:50:43.215 1c54 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0e\x03\x02\x01\x0b\x00s\x00c\x00h\x00e\x00m\x00a\x00_\x00h\x00a\x00s\x00h' @ 10579 : 1
+2026/06/30-17:50:43.215 1c54 Compacting 1@1 + 1@2 files
+2026/06/30-17:50:43.219 1c54 Generated table #13@1: 2459 keys, 81817 bytes
+2026/06/30-17:50:43.219 1c54 Compacted 1@1 + 1@2 files => 81817 bytes
+2026/06/30-17:50:43.220 1c54 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/30-17:50:43.220 1c54 Delete type=2 #12
+2026/06/30-17:50:43.220 1c54 Delete type=2 #9
+2026/06/30-17:50:43.221 1c54 Manual compaction at level-1 from '\x00\x0e\x03\x02\x01\x0b\x00s\x00c\x00h\x00e\x00m\x00a\x00_\x00h\x00a\x00s\x00h' @ 10579 : 1 .. (end); will stop at (end)

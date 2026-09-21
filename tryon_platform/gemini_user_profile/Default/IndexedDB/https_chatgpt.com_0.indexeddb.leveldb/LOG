@@ -1,0 +1,15 @@
+2026/06/25-10:27:58.278 2427 Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/25-10:27:58.278 2427 Recovering log #4
+2026/06/25-10:27:58.280 2427 Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000004.log 
+2026/06/25-16:55:08.197 242c Level-0 table #8: started
+2026/06/25-16:55:08.207 242c Level-0 table #8: 408515 bytes OK
+2026/06/25-16:55:08.211 242c Delete type=0 #4
+2026/06/25-16:55:08.215 242c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/06/25-16:55:08.215 242c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01 \x01\x1d\x00u\x00s\x00e\x00r\x00-\x00s\x00z\x00G\x00a\x00M\x00u\x00B\x00A\x00s\x00l\x00g\x00z\x003\x00l\x00U\x00t\x00w\x00d\x005\x004\x00Y\x00j\x00W\x00X\x00\x01$\x006\x00a\x001\x00f\x00f\x009\x00c\x00a\x00-\x00d\x004\x00f\x000\x00-\x008\x003\x002\x001\x00-\x008\x008\x00e\x007\x00-\x007\x005\x00e\x000\x004\x001\x008\x00d\x007\x006\x009\x00e' @ 459 : 1
+2026/06/25-16:55:08.215 242c Compacting 1@1 + 1@2 files
+2026/06/25-16:55:08.218 242c Generated table #9@1: 54 keys, 49176 bytes
+2026/06/25-16:55:08.218 242c Compacted 1@1 + 1@2 files => 49176 bytes
+2026/06/25-16:55:08.220 242c compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/25-16:55:08.220 242c Delete type=2 #5
+2026/06/25-16:55:08.220 242c Delete type=2 #8
+2026/06/25-16:55:08.223 242c Manual compaction at level-1 from '\x00\x02\x01 \x01\x1d\x00u\x00s\x00e\x00r\x00-\x00s\x00z\x00G\x00a\x00M\x00u\x00B\x00A\x00s\x00l\x00g\x00z\x003\x00l\x00U\x00t\x00w\x00d\x005\x004\x00Y\x00j\x00W\x00X\x00\x01$\x006\x00a\x001\x00f\x00f\x009\x00c\x00a\x00-\x00d\x004\x00f\x000\x00-\x008\x003\x002\x001\x00-\x008\x008\x00e\x007\x00-\x007\x005\x00e\x000\x004\x001\x008\x00d\x007\x006\x009\x00e' @ 459 : 1 .. (end); will stop at (end)

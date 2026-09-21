@@ -1,0 +1,15 @@
+2026/07/16-16:30:28.083 1eb9 Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_identity.getpostman.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/16-16:30:28.083 1eb9 Recovering log #4
+2026/07/16-16:30:28.083 1eb9 Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_identity.getpostman.com_0.indexeddb.leveldb/000004.log 
+2026/07/16-16:30:48.856 1ebb Level-0 table #8: started
+2026/07/16-16:30:48.858 1ebb Level-0 table #8: 226 bytes OK
+2026/07/16-16:30:48.866 1ebb Delete type=0 #4
+2026/07/16-16:30:48.866 1ebb Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/07/16-16:30:48.866 1ebb Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 60 : 1
+2026/07/16-16:30:48.866 1ebb Compacting 1@1 + 1@2 files
+2026/07/16-16:30:48.867 1ebb Generated table #9@1: 21 keys, 816 bytes
+2026/07/16-16:30:48.867 1ebb Compacted 1@1 + 1@2 files => 816 bytes
+2026/07/16-16:30:48.868 1ebb compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/16-16:30:48.868 1ebb Delete type=2 #5
+2026/07/16-16:30:48.868 1ebb Delete type=2 #8
+2026/07/16-16:30:48.868 1ebb Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 60 : 1 .. (end); will stop at (end)

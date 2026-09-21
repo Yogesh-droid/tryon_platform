@@ -1,0 +1,7 @@
+2026/09/16-18:26:09.494 6b06ed Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_firebase.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/16-18:26:09.494 6b06ed Recovering log #3
+2026/09/16-18:26:09.495 6b06ed Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_firebase.google.com_0.indexeddb.leveldb/000003.log 
+2026/09/16-18:26:43.885 6b06df Level-0 table #5: started
+2026/09/16-18:26:43.886 6b06df Level-0 table #5: 6522 bytes OK
+2026/09/16-18:26:43.892 6b06df Delete type=0 #3
+2026/09/16-18:26:43.894 6b06df Manual compaction at level-0 from (begin) .. (end); will stop at (end)

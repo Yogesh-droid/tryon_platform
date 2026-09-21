@@ -1,0 +1,12 @@
+2026/06/05-12:32:00.066 23ab Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_wetransfer.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/05-12:32:00.066 23ab Recovering log #4
+2026/06/05-12:32:00.067 23ab Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_wetransfer.com_0.indexeddb.leveldb/000004.log 
+2026/06/05-13:54:47.665 23ad Level-0 table #8: started
+2026/06/05-13:54:47.678 23ad Level-0 table #8: 1594491 bytes OK
+2026/06/05-13:54:47.681 23ad Delete type=0 #4
+2026/06/05-13:54:49.615 23ad Compacting 1@1 + 1@2 files
+2026/06/05-13:54:49.624 23ad Generated table #9@1: 816 keys, 117266 bytes
+2026/06/05-13:54:49.624 23ad Compacted 1@1 + 1@2 files => 117266 bytes
+2026/06/05-13:54:49.625 23ad compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/05-13:54:49.626 23ad Delete type=2 #5
+2026/06/05-13:54:49.626 23ad Delete type=2 #8

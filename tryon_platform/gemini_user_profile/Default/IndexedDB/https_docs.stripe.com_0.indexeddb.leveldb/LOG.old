@@ -1,0 +1,15 @@
+2026/07/02-12:39:25.131 171a Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_docs.stripe.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/02-12:39:25.131 171a Recovering log #4
+2026/07/02-12:39:25.131 171a Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_docs.stripe.com_0.indexeddb.leveldb/000004.log 
+2026/07/02-13:53:07.242 171a Level-0 table #8: started
+2026/07/02-13:53:07.246 171a Level-0 table #8: 209 bytes OK
+2026/07/02-13:53:07.253 171a Delete type=0 #4
+2026/07/02-13:53:07.253 171a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/07/02-13:53:07.254 171a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 59 : 1
+2026/07/02-13:53:07.254 171a Compacting 1@1 + 1@2 files
+2026/07/02-13:53:07.255 171a Generated table #9@1: 21 keys, 995 bytes
+2026/07/02-13:53:07.255 171a Compacted 1@1 + 1@2 files => 995 bytes
+2026/07/02-13:53:07.256 171a compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/02-13:53:07.256 171a Delete type=2 #5
+2026/07/02-13:53:07.256 171a Delete type=2 #8
+2026/07/02-13:53:07.257 171a Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 59 : 1 .. (end); will stop at (end)
