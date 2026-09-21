@@ -18,10 +18,11 @@ button { color: inherit; cursor: pointer; font: inherit; }
 .picker-heading { align-items: baseline; display: flex; justify-content: space-between; margin-bottom: 11px; }
 .picker-heading span { font-size: 12px; font-weight: 700; }
 .picker-heading small { color: var(--muted); font-size: 11px; }
-.garment-strip { display: flex; gap: 10px; overflow-x: auto; padding: 2px 2px 9px; scrollbar-width: none; }
-.garment-strip::-webkit-scrollbar { display: none; }
-.garment-item { background: transparent; border: 0; flex: 0 0 86px; padding: 0; position: relative; text-align: left; }
-.garment-item img { background: var(--sage); border: 2px solid transparent; border-radius: 7px; display: block; height: 112px; object-fit: cover; width: 86px; }
+.garment-strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(86px, 1fr)); gap: 15px 10px; overflow-y: auto; max-height: 280px; padding: 2px 2px 9px; scrollbar-width: thin; }
+.garment-strip::-webkit-scrollbar { width: 6px; }
+.garment-strip::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
+.garment-item { background: transparent; border: 0; width: 100%; padding: 0; position: relative; text-align: left; }
+.garment-item img { background: var(--sage); border: 2px solid transparent; border-radius: 7px; display: block; height: 112px; object-fit: cover; width: 100%; }
 .garment-item span { display: block; font-size: 11px; margin-top: 7px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .garment-item.selected img { border-color: var(--coral); box-shadow: 0 0 0 2px #f3c8bc; }
 .garment-item i { align-items: center; background: var(--coral); border: 2px solid var(--paper); border-radius: 50%; color: white; display: flex; font-size: 10px; font-style: normal; height: 20px; justify-content: center; position: absolute; right: -4px; top: -5px; width: 20px; }

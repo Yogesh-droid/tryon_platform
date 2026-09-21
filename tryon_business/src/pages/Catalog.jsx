@@ -81,6 +81,7 @@ export default function Catalog() {
     try {
       await patchGarment(token, selectedGarment.id, {
         name: selectedGarment.name.trim(),
+        prompt: selectedGarment.prompt || '',
         is_active: selectedGarment.is_active,
       });
       setSelectedGarment(null);
@@ -195,6 +196,7 @@ export default function Catalog() {
             <div className="detail-content">
               <div className="modal-header"><div><p className="eyebrow">Garment details</p><h3>Edit piece</h3></div><button type="button" className="icon-button" onClick={() => setSelectedGarment(null)} aria-label="Close dialog">×</button></div>
               <label className="field-label">Name<input autoFocus value={selectedGarment.name} onChange={(event) => setSelectedGarment({ ...selectedGarment, name: event.target.value })} /></label>
+              <label className="field-label">Gemini Prompt (Optional)<textarea value={selectedGarment.prompt || ''} onChange={(event) => setSelectedGarment({ ...selectedGarment, prompt: event.target.value })} style={{ width: '100%', padding: '8px', minHeight: '60px' }} /></label>
               <label className="visibility-row"><span><strong>Available for try-on</strong><small>Show this piece on your public storefront</small></span><input type="checkbox" checked={selectedGarment.is_active} onChange={(event) => setSelectedGarment({ ...selectedGarment, is_active: event.target.checked })} /></label>
               <div className="modal-actions"><button type="button" className="danger-button" onClick={handleDelete} disabled={isSaving}>Delete</button><button type="submit" className="primary-button" disabled={isSaving}>{isSaving ? 'Saving...' : 'Save changes'}</button></div>
             </div>

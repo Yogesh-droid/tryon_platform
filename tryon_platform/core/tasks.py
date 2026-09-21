@@ -264,33 +264,38 @@ def gemini_playwright_tryon(model_image_path, garment_image_path, custom_prompt=
         response_block = page.locator('message-content, .model-response-text').last
         response_block.wait_for(state="visible", timeout=60000)
 
-        # Wait a few more seconds to ensure images or text have fully loaded
-        time.sleep(15)
+        # Poll until the generated image is fully rendered on screen
+        print("Waiting for image to finish rendering...")
+        start_time = time.time()
+        img_info = None
+        while time.time() - start_time < 60:
+            img_info = page.evaluate('''() => {
+                const imgs = Array.from(document.querySelectorAll('img'));
+                // Filter for images larger than 150x150 pixels
+                const largeImgs = imgs.filter(img => img.width > 150 && img.height > 150);
+                const targetImg = largeImgs.length > 0 ? largeImgs[largeImgs.length - 1] : null;
+                if (!targetImg) return null;
+                
+                // Verify the image is fully downloaded and rendered
+                if (!targetImg.complete || targetImg.naturalWidth === 0) return null;
+                
+                if (targetImg.src.startsWith('blob:')) {
+                    const canvas = document.createElement('canvas');
+                    canvas.width = targetImg.naturalWidth;
+                    canvas.height = targetImg.naturalHeight;
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(targetImg, 0, 0);
+                    return { type: 'base64', data: canvas.toDataURL('image/png').split(',')[1] };
+                } else {
+                    return { type: 'url', data: targetImg.src };
+                }
+            }''')
+            if img_info:
+                break
+            time.sleep(0.5) # Poll every 500ms
         
-        # The chat input box is at the bottom of the DOM, so simply grabbing the '.last' image 
-        # often accidentally grabs the tiny thumbnail from your prompt!
-        # Generated images are large, so we will use JavaScript to find the last large image.
-        # If it's a blob URL, we extract it via JS. If it's a standard URL, we download it via Python to avoid CORS errors.
-        img_info = page.evaluate('''async () => {
-            const imgs = Array.from(document.querySelectorAll('img'));
-            // Filter for images larger than 150x150 pixels
-            const largeImgs = imgs.filter(img => img.width > 150 && img.height > 150);
-            const targetImg = largeImgs.length > 0 ? largeImgs[largeImgs.length - 1] : null;
-            if (!targetImg) return null;
-            
-            if (targetImg.src.startsWith('blob:')) {
-                // Network fetch can fail due to CSP or revoked blobs.
-                // Since the browser has already decoded the image, we can just grab its raw pixels using a Canvas!
-                const canvas = document.createElement('canvas');
-                canvas.width = targetImg.naturalWidth || targetImg.width;
-                canvas.height = targetImg.naturalHeight || targetImg.height;
-                const ctx = canvas.getContext('2d');
-                ctx.drawImage(targetImg, 0, 0);
-                return { type: 'base64', data: canvas.toDataURL('image/png').split(',')[1] };
-            } else {
-                return { type: 'url', data: targetImg.src };
-            }
-        }''')
+        if not img_info:
+            raise Exception("Timeout waiting for large generated image to appear")
         
         if img_info:
             if img_info['type'] == 'base64':
@@ -320,4 +325,41 @@ def gemini_playwright_tryon(model_image_path, garment_image_path, custom_prompt=
         context.close()
         
     with open(output_filename, 'rb') as f:
-        return f.read()
+        img_bytes = f.read()
+        
+    try:
+        from simple_lama_inpainting import SimpleLama
+        from PIL import Image, ImageDraw
+        import io
+        import torch
+        
+        # Monkey-patch torch.jit.load to force CPU loading on Macs to avoid CUDA backend errors
+        _original_load = torch.jit.load
+        def _patched_load(*args, **kwargs):
+            kwargs['map_location'] = 'cpu'
+            return _original_load(*args, **kwargs)
+        torch.jit.load = _patched_load
+        
+        try:
+            simple_lama = SimpleLama()
+        finally:
+            torch.jit.load = _original_load  # Restore original
+        
+        img = Image.open(io.BytesIO(img_bytes)).convert("RGB")
+        w, h = img.size
+        
+        # Gemini spark star is placed a bit further from the edge.
+        # We'll mask a 160x160 square in the bottom right corner.
+        mask = Image.new('L', (w, h), 0)
+        draw = ImageDraw.Draw(mask)
+        draw.rectangle([w-160, h-160, w, h], fill=255)
+        
+        # Inpaint using deep learning (handles complex textures gracefully)
+        result = simple_lama(img, mask)
+        
+        out_io = io.BytesIO()
+        result.save(out_io, format="PNG")
+        return out_io.getvalue()
+    except Exception as e:
+        print("Failed to inpaint watermark with LaMa:", e)
+        return img_bytes

@@ -15,6 +15,7 @@ export default function TryOnPage() {
   const [status, setStatus] = useState('idle'); // idle | generating | done | failed
   const [resultUrl, setResultUrl] = useState(null);
   const [errorMsg, setErrorMsg] = useState('');
+  const [timeElapsed, setTimeElapsed] = useState(0);
   const [recentGarmentIds, setRecentGarmentIds] = useState(() => {
     try { return JSON.parse(localStorage.getItem(`recent-tryons-${shopSlug}`)) || []; } catch { return []; }
   });
@@ -30,6 +31,17 @@ export default function TryOnPage() {
       }
     });
   }, [shopSlug, pathGarmentId]);
+
+  useEffect(() => {
+    let timer;
+    if (status === 'generating') {
+      setTimeElapsed(0);
+      timer = setInterval(() => {
+        setTimeElapsed((prev) => prev + 1);
+      }, 1000);
+    }
+    return () => clearInterval(timer);
+  }, [status]);
 
   const canGenerate = selectedGarment && personPhoto && status !== 'generating';
 
@@ -86,6 +98,9 @@ export default function TryOnPage() {
     );
   }
 
+  const ESTIMATED_TIME = 25; // seconds
+  const progressPercent = Math.min((timeElapsed / ESTIMATED_TIME) * 100, 95);
+
   return (
     <div className="page">
       <header className="store-header">
@@ -93,7 +108,18 @@ export default function TryOnPage() {
         <div><p className="store-kicker">Rita's Boutique</p><p className="store-location">Virtual fitting room</p></div>
       </header>
 
-      {status === 'generating' && <div className="loading-state"><span className="loading-orbit" /><strong>Creating your look</strong><span>This usually takes a few seconds.</span></div>}
+      {status === 'generating' && (
+        <div className="loading-state">
+          <span className="loading-orbit" />
+          <strong>Creating your look</strong>
+          <span style={{ marginTop: '4px', fontSize: '14px', color: '#666' }}>
+            {timeElapsed}s / ~{ESTIMATED_TIME}s estimated
+          </span>
+          <div style={{ width: '100%', maxWidth: '240px', height: '6px', background: '#e0e0e0', borderRadius: '4px', overflow: 'hidden', marginTop: '16px' }}>
+            <div style={{ height: '100%', background: '#222', width: `${progressPercent}%`, transition: 'width 1s linear' }} />
+          </div>
+        </div>
+      )}
       {status === 'done' && resultUrl && (
         <ResultReveal
           resultUrl={resultUrl}
