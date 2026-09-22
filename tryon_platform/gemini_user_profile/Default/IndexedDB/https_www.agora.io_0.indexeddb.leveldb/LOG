@@ -1,6 +1,0 @@
-2026/05/14-09:58:39.022 1f81 Creating DB /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.agora.io_0.indexeddb.leveldb since it was missing.
-2026/05/14-09:58:39.024 1f81 Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.agora.io_0.indexeddb.leveldb/MANIFEST-000001
-2026/05/14-09:58:45.032 1f81 Level-0 table #5: started
-2026/05/14-09:58:45.033 1f81 Level-0 table #5: 843 bytes OK
-2026/05/14-09:58:45.047 1f81 Delete type=0 #3
-2026/05/14-09:58:45.047 1f81 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

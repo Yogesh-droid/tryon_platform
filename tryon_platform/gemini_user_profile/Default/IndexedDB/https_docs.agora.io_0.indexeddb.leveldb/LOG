@@ -1,7 +1,0 @@
-2026/06/02-08:49:21.560 1cd4 Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_docs.agora.io_0.indexeddb.leveldb/MANIFEST-000001
-2026/06/02-08:49:21.560 1cd4 Recovering log #9
-2026/06/02-08:49:21.560 1cd4 Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_docs.agora.io_0.indexeddb.leveldb/000009.log 
-2026/06/02-08:49:21.583 1d05 Level-0 table #15: started
-2026/06/02-08:49:21.584 1d05 Level-0 table #15: 854 bytes OK
-2026/06/02-08:49:21.585 1d05 Delete type=0 #9
-2026/06/02-08:49:21.585 1cd2 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

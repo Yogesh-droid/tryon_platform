@@ -1,7 +1,0 @@
-2026/05/21-09:07:23.853 1d1a Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/WebStorage/44/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2026/05/21-09:07:23.853 1d1a Recovering log #3
-2026/05/21-09:07:23.853 1d1a Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/WebStorage/44/IndexedDB/indexeddb.leveldb/000003.log 
-2026/05/21-09:07:27.254 1d06 Level-0 table #5: started
-2026/05/21-09:07:27.264 1d06 Level-0 table #5: 3558 bytes OK
-2026/05/21-09:07:27.266 1d06 Delete type=0 #3
-2026/05/21-09:07:27.267 1d06 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

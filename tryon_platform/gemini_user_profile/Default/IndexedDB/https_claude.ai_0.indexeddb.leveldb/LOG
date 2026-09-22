@@ -1,7 +1,0 @@
-2026/05/28-16:11:23.641 1d5f Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/MANIFEST-000001
-2026/05/28-16:11:23.642 1d5f Recovering log #3
-2026/05/28-16:11:23.642 1d5f Reusing old log /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb/000003.log 
-2026/05/28-16:17:19.693 1d5f Level-0 table #5: started
-2026/05/28-16:17:19.698 1d5f Level-0 table #5: 6818 bytes OK
-2026/05/28-16:17:19.699 1d5f Delete type=0 #3
-2026/05/28-16:17:19.700 1d5f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

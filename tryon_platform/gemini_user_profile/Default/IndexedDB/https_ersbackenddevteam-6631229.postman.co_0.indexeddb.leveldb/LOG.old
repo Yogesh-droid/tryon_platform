@@ -1,6 +1,0 @@
-2026/05/20-13:36:19.046 1736 Creating DB /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_ersbackenddevteam-6631229.postman.co_0.indexeddb.leveldb since it was missing.
-2026/05/20-13:36:19.048 1736 Reusing MANIFEST /Users/yogeshkumar/Library/Application Support/Google/Chrome/Default/IndexedDB/https_ersbackenddevteam-6631229.postman.co_0.indexeddb.leveldb/MANIFEST-000001
-2026/05/20-13:40:41.206 1736 Level-0 table #5: started
-2026/05/20-13:40:41.208 1736 Level-0 table #5: 21742 bytes OK
-2026/05/20-13:40:41.209 1736 Delete type=0 #3
-2026/05/20-13:40:41.210 1736 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
