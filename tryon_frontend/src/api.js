@@ -13,10 +13,14 @@ export async function getGarments(shopSlug) {
   return { garments: data };
 }
 
-export async function submitTryOn(shopSlug, personImage, garmentId) {
+export async function submitTryOn(shopSlug, personImage, garmentId, selectedSize = '', userMeasurements = {}) {
   const formData = new FormData();
   formData.append('person_image', personImage);
   formData.append('garment', garmentId);
+  if (selectedSize) formData.append('selected_size', selectedSize);
+  if (Object.keys(userMeasurements).length > 0) {
+    formData.append('user_measurements', JSON.stringify(userMeasurements));
+  }
 
   const res = await fetch(`${API_BASE}/shops/${shopSlug}/tryon/`, {
     method: 'POST',

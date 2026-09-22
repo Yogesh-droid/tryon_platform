@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 media/
 node_modules/
+
+tryon_platform/gemini_user_profile/
+db.sqlite3
+.DS_Store
+*.log

@@ -74,6 +74,23 @@ export default function Catalog() {
     }
   };
 
+  const SIZES = ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
+
+  const handleSizeToggle = (size) => {
+    const current = selectedGarment.sizes_available || [];
+    const next = current.includes(size) ? current.filter((s) => s !== size) : [...current, size];
+    setSelectedGarment({ ...selectedGarment, sizes_available: next });
+  };
+
+  const handleMeasurementChange = (size, field, val) => {
+    const m = selectedGarment.size_measurements || {};
+    const sm = m[size] || {};
+    setSelectedGarment({
+      ...selectedGarment,
+      size_measurements: { ...m, [size]: { ...sm, [field]: val } }
+    });
+  };
+
   const handleUpdate = async (event) => {
     event.preventDefault();
     if (!selectedGarment.name.trim()) return;
@@ -82,6 +99,8 @@ export default function Catalog() {
       await patchGarment(token, selectedGarment.id, {
         name: selectedGarment.name.trim(),
         prompt: selectedGarment.prompt || '',
+        sizes_available: selectedGarment.sizes_available || [],
+        size_measurements: selectedGarment.size_measurements || {},
         is_active: selectedGarment.is_active,
       });
       setSelectedGarment(null);
@@ -191,12 +210,37 @@ export default function Catalog() {
 
       {selectedGarment && (
         <div className="modal-backdrop" onKeyDown={handleModalKeyDown} onClick={() => setSelectedGarment(null)} role="presentation">
-          <form className="modal-card detail-modal" onSubmit={handleUpdate} onClick={(event) => event.stopPropagation()}>
+          <form className="modal-card detail-modal" onSubmit={handleUpdate} onClick={(event) => event.stopPropagation()} style={{ maxHeight: '90vh', overflowY: 'auto' }}>
             <div className="detail-image"><img src={selectedGarment.image} alt={selectedGarment.name} /></div>
             <div className="detail-content">
               <div className="modal-header"><div><p className="eyebrow">Garment details</p><h3>Edit piece</h3></div><button type="button" className="icon-button" onClick={() => setSelectedGarment(null)} aria-label="Close dialog">×</button></div>
               <label className="field-label">Name<input autoFocus value={selectedGarment.name} onChange={(event) => setSelectedGarment({ ...selectedGarment, name: event.target.value })} /></label>
               <label className="field-label">Gemini Prompt (Optional)<textarea value={selectedGarment.prompt || ''} onChange={(event) => setSelectedGarment({ ...selectedGarment, prompt: event.target.value })} style={{ width: '100%', padding: '8px', minHeight: '60px' }} /></label>
+              
+              <div style={{ marginBottom: '15px' }}>
+                <span className="field-label">Available Sizes</span>
+                <div style={{ display: 'flex', gap: '8px', marginBottom: '10px' }}>
+                  {SIZES.map(s => (
+                    <label key={s} style={{ display: 'flex', alignItems: 'center', gap: '3px', fontSize: '13px' }}>
+                      <input type="checkbox" checked={(selectedGarment.sizes_available || []).includes(s)} onChange={() => handleSizeToggle(s)} /> {s}
+                    </label>
+                  ))}
+                </div>
+                {(selectedGarment.sizes_available || []).length > 0 && (
+                  <div style={{ background: '#f5f5f5', padding: '10px', borderRadius: '5px' }}>
+                    <p style={{ fontSize: '11px', textTransform: 'uppercase', marginBottom: '8px', fontWeight: 'bold' }}>Measurements (inches)</p>
+                    {(selectedGarment.sizes_available || []).map(s => (
+                      <div key={s} style={{ display: 'flex', gap: '8px', alignItems: 'center', marginBottom: '6px' }}>
+                        <strong style={{ width: '25px', fontSize: '13px' }}>{s}</strong>
+                        <input type="number" placeholder="Chest" style={{ width: '65px', padding: '4px', fontSize: '13px', borderRadius: '4px', border: '1px solid #ccc' }} value={selectedGarment.size_measurements?.[s]?.chest || ''} onChange={e => handleMeasurementChange(s, 'chest', e.target.value)} />
+                        <input type="number" placeholder="Shoulder" style={{ width: '65px', padding: '4px', fontSize: '13px', borderRadius: '4px', border: '1px solid #ccc' }} value={selectedGarment.size_measurements?.[s]?.shoulder || ''} onChange={e => handleMeasurementChange(s, 'shoulder', e.target.value)} />
+                        <input type="number" placeholder="Length" style={{ width: '65px', padding: '4px', fontSize: '13px', borderRadius: '4px', border: '1px solid #ccc' }} value={selectedGarment.size_measurements?.[s]?.length || ''} onChange={e => handleMeasurementChange(s, 'length', e.target.value)} />
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+
               <label className="visibility-row"><span><strong>Available for try-on</strong><small>Show this piece on your public storefront</small></span><input type="checkbox" checked={selectedGarment.is_active} onChange={(event) => setSelectedGarment({ ...selectedGarment, is_active: event.target.checked })} /></label>
               <div className="modal-actions"><button type="button" className="danger-button" onClick={handleDelete} disabled={isSaving}>Delete</button><button type="submit" className="primary-button" disabled={isSaving}>{isSaving ? 'Saving...' : 'Save changes'}</button></div>
             </div>

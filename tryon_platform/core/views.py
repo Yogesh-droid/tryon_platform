@@ -100,7 +100,13 @@ def shop_dashboard(request):
 def list_garments(request, shop_slug):
     shop = get_object_or_404(Shop, slug=shop_slug, is_active=True)
     garments = shop.garments.filter(is_active=True)
-    data = [{'id': str(g.id), 'name': g.name, 'image': g.image.url} for g in garments]
+    data = [{
+        'id': str(g.id),
+        'name': g.name,
+        'image': g.image.url,
+        'sizes_available': g.sizes_available,
+        'size_measurements': g.size_measurements
+    } for g in garments]
     return Response(data)
 
 shop_dashboard.authentication_classes = [TokenAuthentication]

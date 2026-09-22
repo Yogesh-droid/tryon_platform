@@ -5,7 +5,7 @@ from .models import TryOnJob, Garment,Shop
 class TryOnJobCreateSerializer(serializers.ModelSerializer):
     class Meta:
         model = TryOnJob
-        fields = ['person_image', 'garment']
+        fields = ['person_image', 'garment', 'selected_size', 'user_measurements']
 
 
 class TryOnJobStatusSerializer(serializers.ModelSerializer):
@@ -17,7 +17,7 @@ class TryOnJobStatusSerializer(serializers.ModelSerializer):
 class GarmentManageSerializer(serializers.ModelSerializer):
     class Meta:
         model = Garment
-        fields = ['id', 'name', 'image', 'image2', 'prompt', 'is_active', 'created_at']
+        fields = ['id', 'name', 'image', 'image2', 'prompt', 'sizes_available', 'size_measurements', 'is_active', 'created_at']
         read_only_fields = ['id', 'created_at']
 
 

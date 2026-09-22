@@ -42,6 +42,8 @@ class Garment(models.Model):
     image = models.ImageField(upload_to='garments/')
     image2 = models.ImageField(upload_to='garments/', blank=True, null=True, help_text="Optional second image of the garment")
     prompt = models.TextField(blank=True, null=True, help_text="Custom prompt instructions for Gemini")
+    sizes_available = models.JSONField(default=list, blank=True, help_text="List of sizes available (S, M, L, XL)")
+    size_measurements = models.JSONField(default=dict, blank=True, help_text="Dict mapping sizes to dict of measurements (chest, shoulder, length)")
     is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
@@ -72,6 +74,9 @@ class TryOnJob(models.Model):
     shop = models.ForeignKey(Shop, on_delete=models.CASCADE, related_name='tryon_jobs')
     end_user = models.ForeignKey(EndUser, on_delete=models.CASCADE, related_name='tryon_jobs')
     garment = models.ForeignKey(Garment, on_delete=models.SET_NULL, null=True)
+    
+    selected_size = models.CharField(max_length=10, blank=True, help_text="The size the user chose to try on")
+    user_measurements = models.JSONField(default=dict, blank=True, help_text="The user's estimated or actual measurements at time of generation")
 
     person_image = models.ImageField(upload_to='tryon/person/')
     result_image = models.ImageField(upload_to='tryon/result/', null=True, blank=True)

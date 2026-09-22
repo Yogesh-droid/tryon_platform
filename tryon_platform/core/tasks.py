@@ -41,7 +41,28 @@ def run_tryon_job(job_id):
         elif method == 'gemini':
             image_bytes = gemini_tryon(job.person_image.path, job.garment.image.path)
         elif method == 'gemini_playwright':
-            prompt = job.garment.prompt if job.garment.prompt else None
+            prompt = job.garment.prompt if job.garment.prompt else ""
+            
+            if job.selected_size and job.user_measurements and job.garment:
+                u_chest = float(job.user_measurements.get('chest', 0) or 0)
+                garment_measurements = job.garment.size_measurements.get(job.selected_size, {})
+                g_chest = float(garment_measurements.get('chest', 0) or 0)
+                
+                if u_chest > 0 and g_chest > 0:
+                    diff = g_chest - u_chest
+                    fit_instruction = ""
+                    if diff < 0:
+                        fit_instruction = "\n\nCRITICAL INSTRUCTION: The selected garment size is TOO SMALL for this person! You MUST render it as an extremely tight, squeezing fit. It should look uncomfortably small on them."
+                    elif diff <= 2:
+                        fit_instruction = "\n\nCRITICAL INSTRUCTION: The selected garment size is a PERFECT FIT for this person. Render it tailored perfectly to their body."
+                    elif diff <= 5:
+                        fit_instruction = "\n\nCRITICAL INSTRUCTION: The selected garment size is SLIGHTLY LARGE for this person. Render it as a comfortable, somewhat loose fit with slight excess fabric."
+                    else:
+                        fit_instruction = "\n\nCRITICAL INSTRUCTION: The selected garment size is WAY TOO BIG for this person! You MUST render it as an extremely baggy, oversized, loose fit. Show lots of excess folded fabric, hanging slack, and draped looseness to make it obvious they are wearing an oversized cloth."
+                        
+                    prompt += fit_instruction
+                    
+            prompt = prompt if prompt.strip() else None
             garment2_path = job.garment.image2.path if job.garment.image2 else None
             image_bytes = gemini_playwright_tryon(
                 job.person_image.path, 
