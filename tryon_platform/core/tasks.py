@@ -213,10 +213,11 @@ def gemini_playwright_tryon(model_image_path, garment_image_path, custom_prompt=
             "Generate realistic fabric pleats, fall, and natural studio lighting."
         )
 
+    profile_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../gemini_user_profile'))
     with sync_playwright() as p:
         # Launch using saved profile and the actual Google Chrome browser to preserve Mac keychain cookies
         context = p.chromium.launch_persistent_context(
-            user_data_dir="./gemini_user_profile",
+            user_data_dir=profile_path,
             executable_path="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
             headless=False,
             ignore_default_args=["--use-mock-keychain"],

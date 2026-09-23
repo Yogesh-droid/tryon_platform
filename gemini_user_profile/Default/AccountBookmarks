@@ -1,0 +1,147 @@
+{
+   "checksum": "93c035db7344128166b0559f05e31efe",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13394695412664789",
+            "date_last_used": "13410328403151077",
+            "guid": "814090c1-5c3d-4b50-babf-45c22c2c0251",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Me | Attendance | Logs",
+            "type": "url",
+            "url": "https://vinove.keka.com/#/me/attendance/logs"
+         }, {
+            "date_added": "13394695422814856",
+            "date_last_used": "13399446264572589",
+            "guid": "35450db2-5305-4f79-bcdf-895e4f44b3ea",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Workstatus",
+            "type": "url",
+            "url": "https://app.workstatus.io/timesheets/view-edit-timesheets"
+         }, {
+            "date_added": "13415370207528540",
+            "date_last_used": "13429247876868675",
+            "guid": "cfcd610f-0a38-4fe6-9d7c-9bd0877049d0",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Vinove — Daily Standup (DSU)",
+            "type": "url",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScj8D9GuOr7wLO1mdXr-O2IF5tzr71YDqiAGM1b0M75C317pg/viewform"
+         }, {
+            "date_added": "13401545012479508",
+            "date_last_used": "13429247979370358",
+            "guid": "ca483a45-36be-4de3-826f-44bb6682f464",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "restrodvisor - New Team Workspace",
+            "type": "url",
+            "url": "https://martian-eclipse-73362.postman.co/workspace/New-Team-Workspace~1f803a68-968a-4307-a973-f1668cff091a/folder/20689024-9c607420-95f9-45e2-b866-ac7c159a0606"
+         }, {
+            "date_added": "13430371297038406",
+            "date_last_used": "0",
+            "guid": "da96103c-0f80-442a-b3b0-f2257c076b2f",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Restodviser",
+            "type": "url",
+            "url": "https://restroadvisor.dev.vinove.com/auth/login"
+         }, {
+            "date_added": "13430383844437595",
+            "date_last_used": "0",
+            "guid": "fe150545-f6f2-407d-adb5-53572aae84d7",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Overview - My Workspace",
+            "type": "url",
+            "url": "https://martian-eclipse-73362.postman.co/workspace/My-Workspace~32a88a2f-7a33-46a8-8138-d2e7d03ae74c/overview"
+         }, {
+            "date_added": "13430901774263908",
+            "date_last_used": "13431248318353764",
+            "guid": "6285742f-e124-489f-a772-b18d213171be",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "[VC] || GitHub Access - Google Sheets",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1qd8Jgb109C-4p8wDHZSzdugPV-At6wpDGRP3HnzyC54/edit?gid=1629740978#gid=1629740978"
+         }, {
+            "date_added": "13433322907793292",
+            "date_last_used": "0",
+            "guid": "ddd9f98b-d8f3-4818-a3cb-fbc28c1162f0",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "JSON Beautifier",
+            "type": "url",
+            "url": "https://yogesh-droid.github.io/json_beautifier/"
+         }, {
+            "date_added": "13434522384730043",
+            "date_last_used": "0",
+            "guid": "5f9748e7-d935-4ddc-9947-ec5a7c4d010a",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Table Booking || Internal - Google Sheets",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/10cvxEw4bRTzr0sHffwn2dMxoJhwefCP14RKQVn3wvxg/edit?gid=1279536534#gid=1279536534"
+         } ],
+         "date_added": "13434545780813425",
+         "date_last_used": "0",
+         "date_modified": "13434522384730043",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "5",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13385798195189578",
+            "date_last_used": "0",
+            "guid": "e5646d00-2541-488e-bc1d-d8fcdc13b18a",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Paths in Flutter: A Visual Guide. Flutter gives us a lot of standard… | by Muhammed Salih Guler | Flutter Community | Medium",
+            "type": "url",
+            "url": "https://medium.com/flutter-community/paths-in-flutter-a-visual-guide-6c906464dcd0"
+         } ],
+         "date_added": "13434545780813425",
+         "date_last_used": "0",
+         "date_modified": "13385798195189578",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "6",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13434545780813425",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "7",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CuABCr8BCIiBAhK4ASAAkgGjAQqgAQoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJiViHqA9cBgARiViHqA9cBgAiNAkuvm2oD1wGABADGbY2/kEUzK7AIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAkuvm2oD1wGABADGbY2/kEUzK7AIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEp4iiIqA9cBgDqAQwI9arJ1QYQ8OmmxQMSACoYNkMrSTY1UUlWRDVERHlHem5GcEZQZz09SAMS7QEIERLoAQocVHUzSDNYZ2pDM1FQd05kT1ZQKzIraDBCNGtzPRJmWjpBRHF0QVp4TWdvOGxIZVQvNFZvOG1rUng4b3EzeU1mV2VqODEwWHI2ZUlRNC80SDZTcHJyMjJxMU1xRWI3Y21Xb0k3OWV3dStHRUJaTzhhbWlpOEFxRWhUTm9HRGc3R095dz09GAAgACgAMOW01LCjgZcDONui47mMNEDbouO5jDRKHHRrWUhhc2VMVTRvV1pSS252RUV6REtweCs5OD1aICIe//5DU2VkOGxhUUsraDJNNkRUVXJWd3A5cG0yN1E9ZYT6NLoS7QEIEBLoAQocTTNaSUhPUEUrQ3RGTzdlanphbFE4R0tXY3I4PRJmWjpBRHF0QVp4TWdvOGxIZVQvNFZvOG1rUng4b3EzdS9LR0Y2Vm03Y0gxK1l6V3Q0WVNkbXA4ZldHMUNUL2FKOFZLZm0wR2hHeHJ1LzBSZ2FZeElqcytmRzRIVTcyL0xxREVyQT09GAAgACgAMOXGwP+x3pYDOJKB6f2HNECSgen9hzRKHE56VWZSc2NPbEZJWFFQYkg0dTF6RHJXbTdoYz1aICIe//02b0E3UURQUnkzTExqeFZGN1FyQzVaV2NMT289ZV9IH+MS7QEIDxLoAQocemZnK2xIaFVPWTNic2svdDlBSkY3dDQ5QU9jPRJmWjpBRHF0QVp4TWdvOGxIZVQvNFZvOG1rUng4b3EzclpncDBwaUxKMUxkYjZaMGNzaXNjRGZmWkt5emdVYUc2clc4UStnMUkzUE1QQ0tVMnFpdE42UjZIUFc1UW1DblZtaWhmZz09GAAgACgAMPu7scX+oZYDOLrfqvv+M0C636r7/jNKHGdGSVVWK25XUmJnamZzdXhvOHZsYzVNNVM3Zz1aICIe//tpeVpWTGdybjY4QW9wT3IvNnlnMTZXYnJaVWs9ZYT6NLoS7QEIDRLoAQocc2t6VXd2c3RqNWQyY2VMaW9DQ2ErM2JaSE9jPRJmWjpBRHF0QVp4TWdvOGxIZVQvNFZvOG1rUng4b3EzNW9TeUFDYTc0MU5tODNUdnI0Y2RxYzZRTk5qTHFGa2RBYnlnSGdQMjhzV041WXUvNXNXZjIvQ0FzTW9lUFZGRkp3YUc5Zz09GAAgACgAMMmJ5K+7iJYDOJH+sP78M0CR/rD+/DNKHDZXSndMMGlnMEFjNGNYYmdZZHZPYnFmaExUbz1aICIe/+5aNnBhMTJGOHE0cGo5S3FzWVRrd0JuZVVYQ289ZVY4opYS7AEIChLnAQocS2o5M21ja2twbmNWbEEyT0ViQmZYZEVtYWtRPRJmWjpBRHF0QVp4TWdvOGxIZVQvNFZvOG1rUng4b3EzdzBUV0ZISWhwK09oVGVVMy8rMjJBVGY4SXlxUkxLZ2ZIOFJNdUN6TEVaWlQ5MFBJUE1pelBXb3QzWTRyUll2TTdQa0dSdz09GAAgACgAMNeX8NO2hI8DON+25or4MkDftuaK+DJKHGhaMGljOG1YZ29lR2VzVFJOK1UwTWFrT3FwZz1aHyId9ndOdzRFOWFYZG5PaFdOV200VnNPbHNKN0FZWT1lzqjZmBLtAQgMEugBChxDTWVsQVFxa3JkTHZvdUxCSFEzRE9wYXJxT2M9EmZaOkFEcXRBWnhNZ284bEhlVC80Vm84bWtSeDhvcTMzNW4wTWFpbkVHdkI5blgzYmo4aGpCRklXTnN6YVRLRDNSSS85Y2VJY1IzdVE0b01ESHpXRWI3TUQwSmZXMXAxU1UvV1hBPT0YACAAKAAwo5Hs2OLnlQM4gZr4zJEzQIGa+MyRM0ocdUtBWmN3NWR6dFBEN3czMEEvcVFBM2tHVk5FPVogIh7/3TJONkEwQnlxaGZpNG1GbGVCS0dtSDJMajI4RT1lqFQJRxLsAQgJEucBChxJbWdPUnRzOFVtejJvUDV6WFNRU3NrdnNtbm89EmZaOkFEcXRBWnhNZ284bEhlVC80Vm84bWtSeDhvcTMydTFlODlGZ3hiVUxmR3BWSVNYTW1Wa2k4Q3cxV0I1emlZZC9JdzRCR0psd0VoZ0lUeFFWdWZDckh4N2dKTmNGQ1JvL1ZnPT0YACAAKAAwmLv045HBkQM4uuflivgyQLrn5Yr4MkocVU5OWCsvbXVmQi9XQ2tQM1NWVitBTWdoeGhBPVofIh3tT28zYmU4QlBzZ0orckdZQjZmZHJERmI5YVFrPWVQPeALEsEBCAcSvAEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFad2x6VG1kVnUzNExZWXNoWjBVTFloWlhIdEVWcVE4enh3NVF2QzcyMCtMMS9LTGNHbjZJUDVTVlVBcE1lRkwxRHR4VHl3TjhVTEtRMjk1WGRQR21VMkV0ZWVyQlE9PRgAIAAoADCUorTpj/qWAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1lAAAAABLsAQgLEucBChxLV3F1QWF2bGFQQksyUmdxdVFiUzZqTGs3OGc9EmZaOkFEcXRBWnhNZ284bEhlVC80Vm84bWtSeDhvcTNWVStaUm9meFRCTVoyZGhjb0RUTHBiMVBIbGx5RGNSaERYbUV6UWN1bzZkZldSd1hXSDhOdjVVbjdwM1RnbjRSUmhXVDJBPT0YACAAKAAwxfju2uLnlQM4qpKnjcUzQKqSp43FM0occk9FK2RYNWc3SjJSeU01bkZIZEdyWm9JY3lrPVofIh36dUc0aHdYcC9teDhlZFdrUmtzS21FM0txb1ZVPWUswODoEqkBCAUSpAEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFad0twY3dtMml1eW0waFZPQ0l4RXpSQU5mVFdycm1JU0N2OFlXbGdzdnVXQkYrRmdRSVVhQzBCSHR1K1VYU0xjVXZFTmE4dxgAIAAoADCUorTpj/qWAzgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1lAAAAABLBAQgGErwBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EmZaOkFEcXRBWnl1M3JiVXNJaVNaV3o0ZVJxeXd2RlhCU1F2YVRONlJKZmh6eGJzWkVCMCtPNGVUN0d3T28xSkUyNW1vN3FRMG9tdU1RaWFLZjJkdS90N0RGNnRXdDc1Z1ZFNE1RPT0YACAAKAAwlKK06Y/6lgM4AEAAShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9ZQAAAAAS7QEIDhLoAQocVVhEaFZFNkI3UDZ0eXZETkY1ZVpIMWpqVDM0PRJmWjpBRHF0QVp4TWdvOGxIZVQvNFZvOG1rUng4b3EzMWhFdUtUUW9PT1pvNU1zc0JkbWRSdGc1UFVxWXBGcXkya08vekk0WlhqVzExTXc2N2xtYmlyekVSN2Q1UXAzbzZ5WVgrdz09GAAgACgAMPahyKLqiJYDONjoroT9M0DY6K6E/TNKHFBFYk96UWoxL3lWVzNFc2JCK25MVmJ5M25sOD1aICIe//d1azN4bExmMmtlQlBwYVF1Z1ZPV2dYWERGSWM9ZahUCUcS6wEICBLmAQocRlN2RVhraTZiaTVaVHZkc0RkNnlrYll4SlhjPRJmWjpBRHF0QVp4TWdvOGxIZVQvNFZvOG1rUng4b3Ezbzl1Vzg4UkhONDN0bjhibGx5eXpZSVV0S2lsU3BoUEtWcXVHVjlzMFZnN0prZWVGbW9JSE9nY2h6T1hhcEptU2kvSi9Kdz09GAAgACgAMNbBheGZqJADOPnfovjWMkD536L41jJKHExWWnJuVUcvRWIzbVV5UkhHSStTcXdnYllxZz1aHiIcMTNiY21kRGNKdHRTNjB0VXpVVVQ4MGp2V3lFPWVQupaPMAE4AA==",
+   "version": 1
+}

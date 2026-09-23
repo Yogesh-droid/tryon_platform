@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "img/icon19.png",
+         "38": "img/icon38.png"
+      },
+      "default_title": "__MSG_screenshotplugin_default_title__"
+   },
+   "author": "http://app.prntscr.com/",
+   "background": {
+      "service_worker": "sw.js"
+   },
+   "content_security_policy": {
+   },
+   "default_locale": "en",
+   "description": "__MSG_screenshotplugin_short_description__",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "img/icon128.png",
+      "19": "img/icon19.png",
+      "24": "img/icon24.png",
+      "256": "img/icon256.png",
+      "32": "img/icon32.png",
+      "38": "img/icon38.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDOKViYMRyMKSxdwxQceEf9qkdgGdByfasdnPjrTXvCVI7fDzGEUjFd11CWnZmH294MS2mFNqt1ztFJSiCn7DUF3R1MnJefyCOthc4qoRr2O6ktQRa1DasN0plt8YIBalnKar2+EPaFyNOnOOWOmRm0YcR7HDCfRIut8z4Q3LynKwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_screenshotplugin_name__",
+   "permissions": [ "activeTab", "storage", "unlimitedStorage", "notifications", "clipboardWrite", "downloads", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.0.1"
+}

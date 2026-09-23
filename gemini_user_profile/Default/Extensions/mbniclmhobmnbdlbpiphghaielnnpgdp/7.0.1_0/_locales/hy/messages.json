@@ -1,0 +1,257 @@
+{
+   "screenshot_app_about": {
+      "message": "Մասին"
+   },
+   "screenshot_app_copyright": {
+      "message": "%company% Բոլոր իրավունքները պաշտպանված են:"
+   },
+   "screenshot_app_exit": {
+      "message": "Չեղարկել"
+   },
+   "screenshot_app_help": {
+      "message": "Օգնություն"
+   },
+   "screenshot_app_hotkey_failtoregister1": {
+      "message": "Հնարավոր չեղավ գրանցել կարճուղին."
+   },
+   "screenshot_app_hotkey_failtoregister2": {
+      "message": "Կարծես այլ ծրագիր է այն օգտագործում: Սեղմեք՝ բացելու համար ընտրանքների պատուհանը:"
+   },
+   "screenshot_app_language_code": {
+      "message": "HY"
+   },
+   "screenshot_app_language_name": {
+      "message": "Հայերեն"
+   },
+   "screenshot_app_language_name_eng": {
+      "message": "Armenian"
+   },
+   "screenshot_app_menu_gallery": {
+      "message": "Իմ պատկերասրահը"
+   },
+   "screenshot_app_menu_sign_in": {
+      "message": "Մուտք է գործում..."
+   },
+   "screenshot_app_menu_sign_out": {
+      "message": "Փակել"
+   },
+   "screenshot_app_options": {
+      "message": "Ընտրանքներ"
+   },
+   "screenshot_app_options_autoclose": {
+      "message": "Միանգամից փակել վերբեռնելու պատուհանը"
+   },
+   "screenshot_app_options_autocopy": {
+      "message": "Վերբեռնելուց հետո պատճենել հղումը"
+   },
+   "screenshot_app_options_capturecursor": {
+      "message": "Նկարել կուրսորը"
+   },
+   "screenshot_app_options_error_hotkeyequal": {
+      "message": "Չեք կարող գրանցել նույն ստեղծը մի քանի գործառույթների համար: Փոխեք այն:"
+   },
+   "screenshot_app_options_error_hotkeyinvalid": {
+      "message": "Կարճուղիներից մեկը վնասված է: Եթե ցանկանում եք այն անջատել՝ ապանշեք:"
+   },
+   "screenshot_app_options_formats": {
+      "message": "Ձևաչափեր"
+   },
+   "screenshot_app_options_general": {
+      "message": "Գլխավոր"
+   },
+   "screenshot_app_options_hotkeygeneral": {
+      "message": "Գլխավոր կարճուղին"
+   },
+   "screenshot_app_options_hotkeys": {
+      "message": "Կարճուղիներ"
+   },
+   "screenshot_app_options_hotkeysavefullscreen": {
+      "message": "Ակնթարթորեն պահպանել ամբողջ էկրանը"
+   },
+   "screenshot_app_options_hotkeyuploadfullscreen": {
+      "message": "Ակնթարթորեն վերբեռնել ամբողջ էկրանը"
+   },
+   "screenshot_app_options_httpsproxy": {
+      "message": "HTTP(S) պրոքսի"
+   },
+   "screenshot_app_options_jpegquality": {
+      "message": "JPEG-ի որակը"
+   },
+   "screenshot_app_options_keepselection": {
+      "message": "Պահել նշված տարածքի դիրքը"
+   },
+   "screenshot_app_options_language": {
+      "message": "Լեզուն"
+   },
+   "screenshot_app_options_manualproxy": {
+      "message": "Պրոքսիի ձեռքով կարգավորում"
+   },
+   "screenshot_app_options_noproxy": {
+      "message": "Չկա պրոքսի"
+   },
+   "screenshot_app_options_proxy": {
+      "message": "Պրոքսի"
+   },
+   "screenshot_app_options_proxyport": {
+      "message": "Պորտ"
+   },
+   "screenshot_app_options_showbubbles": {
+      "message": "Ցուցադրել ծանուցում՝ պատճենելիս և պահպանելիս"
+   },
+   "screenshot_app_options_systemproxy": {
+      "message": "Օգտ. համակարգի պրոքսին"
+   },
+   "screenshot_app_options_uploadformat": {
+      "message": "Վերբեռնվող նկարների ձևաչափը"
+   },
+   "screenshot_app_signin_dialog_caption": {
+      "message": "Մուտք է գործում"
+   },
+   "screenshot_app_signin_dialog_check_now": {
+      "message": "Ստուգել"
+   },
+   "screenshot_app_signin_dialog_first_line": {
+      "message": "1) Մուտք գործեք prntscr.com հետևյալ հղումով՝"
+   },
+   "screenshot_app_signin_dialog_singin_link": {
+      "message": "Մուտք գործել prntscr.com"
+   },
+   "screenshot_app_signin_dialog_wait_signin": {
+      "message": "Մուտք է գործում..."
+   },
+   "screenshot_app_take_screenshot": {
+      "message": "Նկարել էկրանը"
+   },
+   "screenshot_app_terms": {
+      "message": "Lightshot-ի ծառայության պայմանները"
+   },
+   "screenshot_app_tray_tooltip": {
+      "message": "Սեղմեք ստեղնաշարի PrtScr ստեղնը՝ էկրանը Lightshot-ով նկարելու համար"
+   },
+   "screenshot_plugin_cancel": {
+      "message": "Չեղարկել"
+   },
+   "screenshot_plugin_clear": {
+      "message": "Մաքրել"
+   },
+   "screenshot_plugin_close": {
+      "message": "Փակել"
+   },
+   "screenshot_plugin_copy": {
+      "message": "Պատճենել"
+   },
+   "screenshot_plugin_edit_arrow": {
+      "message": "Սլաք"
+   },
+   "screenshot_plugin_edit_blur": {
+      "message": "Լղոզել"
+   },
+   "screenshot_plugin_edit_circle": {
+      "message": "Շրջան"
+   },
+   "screenshot_plugin_edit_color": {
+      "message": "Գույն"
+   },
+   "screenshot_plugin_edit_line": {
+      "message": "Տող"
+   },
+   "screenshot_plugin_edit_marker": {
+      "message": "Նշիչ"
+   },
+   "screenshot_plugin_edit_pencil": {
+      "message": "Գրիչ"
+   },
+   "screenshot_plugin_edit_rect": {
+      "message": "Ուղղ."
+   },
+   "screenshot_plugin_edit_text": {
+      "message": "Տեքստ"
+   },
+   "screenshot_plugin_edit_undo": {
+      "message": "Ետարկել"
+   },
+   "screenshot_plugin_editonline": {
+      "message": "Խմբագրել առցանց"
+   },
+   "screenshot_plugin_error_capt": {
+      "message": "Սխալ"
+   },
+   "screenshot_plugin_fullscreen": {
+      "message": "Նշել Ամբողջ էկրանը"
+   },
+   "screenshot_plugin_go_to_mac_store": {
+      "message": "Կներեք, բայց Lightshot հավելումը աշխատում է միայն Windows-ում: Եթե ձեզ հարկավոր է Lightshot-ը Mac-ի համար, պաա բեռնեք այն Mac App Store-ից: Բացե՞լ App Store-ը:"
+   },
+   "screenshot_plugin_incorrect_size": {
+      "message": "Ընտրած չափերը սխալ են"
+   },
+   "screenshot_plugin_npapi_not_found": {
+      "message": "Սխալ. Lightshot NPAPI բաղադրիչը չի գտնվել: Վերաբացեք դիտարկիչը: Եթե սխալը կրկնվի, ապա գրեք մեզ support@skillbrains.com հասցեով:"
+   },
+   "screenshot_plugin_open": {
+      "message": "Բացել"
+   },
+   "screenshot_plugin_other_os": {
+      "message": "Կներեք, բայց Lightshot-ը աշխատում է միայն Windows և Mac համակարգիչներում: Եթե Lightshot-ը ձեզ հարկավոր է այլ օպերացիոն համակարգի համար, ապա գրեք մեզ support@skillbrains.com հասցեով:"
+   },
+   "screenshot_plugin_print": {
+      "message": "Տպել"
+   },
+   "screenshot_plugin_save": {
+      "message": "Պահպանել"
+   },
+   "screenshot_plugin_screenshot_copied_to_clipboard": {
+      "message": "Նկարը պատճենվել է մեկուսաշրջույթ"
+   },
+   "screenshot_plugin_screenshot_saved": {
+      "message": "Նկարը պահպանվել է %filename%-ում: Սեղմեք՝ թղթապանակը բացելու համար:"
+   },
+   "screenshot_plugin_screenshot_uploaded_link_copied": {
+      "message": "Ճեպապատկերը վերբեռնվել է: Հղումը պատճենվել է:"
+   },
+   "screenshot_plugin_share": {
+      "message": "Տարածել սոցիալական ցանցերում"
+   },
+   "screenshot_plugin_share_facebook": {
+      "message": "Տարածել Facebook-ում"
+   },
+   "screenshot_plugin_share_googlesearch": {
+      "message": "Որոնել նման նկարներ Google-ում"
+   },
+   "screenshot_plugin_share_pinterest": {
+      "message": "Տարածել Pinterest-ում"
+   },
+   "screenshot_plugin_share_sendmail": {
+      "message": "Ուղարկել հղումը էլ.փոստով"
+   },
+   "screenshot_plugin_share_tineyesearch": {
+      "message": "Որոնել նման նկարներ Tineye-ում"
+   },
+   "screenshot_plugin_share_twitter": {
+      "message": "Տարածել Twitter-ում"
+   },
+   "screenshot_plugin_share_vk": {
+      "message": "Տարածել VK-ում"
+   },
+   "screenshot_plugin_tooltip": {
+      "message": "Նշեք տարածք"
+   },
+   "screenshot_plugin_upload": {
+      "message": "Վերբեռնել prntscr.com"
+   },
+   "screenshot_plugin_upload_failed_retry": {
+      "message": "Նկարի վերբեռնման սխալ: Կրկնե՞լ:"
+   },
+   "screenshot_plugin_uploading_window_capt": {
+      "message": "Նկարի վերբեռնում"
+   },
+   "screenshotplugin_default_title": {
+      "message": "Նկարել էկրանը"
+   },
+   "screenshotplugin_name": {
+      "message": "Lightshot (էկրանը նկարելու գործիք)"
+   },
+   "screenshotplugin_short_description": {
+      "message": "Էկրանը նկարելու դյուրին և հարմար գործիք: Հնարավորություն է տալիս նկարել էկրանի ցանկացած տարածքը (նաև տեսանյութերը և flash-ը), խմբագրել և վերբեռնել նկարները:"
+   }
+}
